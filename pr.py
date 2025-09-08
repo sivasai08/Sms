@@ -3,7 +3,7 @@ import pyodbc
 # Connection to SQL Server
 con = pyodbc.connect(
     "Driver={SQL Server};"
-    "Server=DESKTOP-PMRPEOA;"   # Example: DESKTOP-123\\SQLEXPRESS
+    "Server=YOUR LOCAL SQL SERVER NAME;"   # Example: DESKTOP-123\\SQLEXPRESS
     "Database=StudentDB;"
     "Trusted_Connection=yes;"
 )
